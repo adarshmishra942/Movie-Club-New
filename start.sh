@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone Movie-Club-New /Movie-Club-New
+  git clone /Movie-Club-New /Movie-Club-New
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Movie-Club-New
